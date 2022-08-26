@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import {BellIcon, ChatIcon, ChevronDownIcon, HomeIcon, UserGroupIcon, ViewGridIcon} from '@heroicons/react/solid';
 import {FlagIcon, PlayIcon, SearchIcon, ShoppingCartIcon} from '@heroicons/react/outline';
-import HeaderIcon from './Headericon';
+import HeaderIcon from './HeaderIcon';
 import { signOut, useSession } from 'next-auth/react';
 
 function Header() {
